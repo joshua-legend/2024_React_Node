@@ -1,0 +1,53 @@
+.selected {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 15px;
+  color: white;
+  padding: 4px 12px 4px 12px;
+}
+.unselected {
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 15px;
+  padding: 4px 12px 4px 12px;
+}
+
+.all {
+  background-color: #35c5f1;
+  border: 1px solid #35c5f1;
+  border-radius: 15px;
+  color: white;
+  padding: 4px 12px 4px 12px;
+}
+
+.greypill {
+  background-color: #e6e6e6;
+  border: 1px solid #e6e6e6;
+  border-radius: 15px;
+  padding: 4px 12px 4px 12px;
+}
+
+.login {
+  background-color: black;
+  color: white;
+  padding: 15px 120px 15px 120px;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.kakao {
+  background-color: #fee600;
+  color: black;
+  padding: 15px 120px 15px 120px;
+  border: 1px solid #fee600;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.apple {
+  background-color: white;
+  color: black;
+  padding: 15px 120px 15px 120px;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  font-weight: 700;
+}

@@ -1,0 +1,17 @@
+div > button {
+  border: none;
+}
+
+div > span > button {
+  border: none;
+  color: red;
+}
+
+/* .profile 태그의 자식의 img는 넓이 100px,높이100px,
+모양은 둥글게 라는 css 만들기 */
+
+.profile > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 9999px;
+}

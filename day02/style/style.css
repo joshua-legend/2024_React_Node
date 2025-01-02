@@ -1,0 +1,24 @@
+.free {
+  color: grey;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  padding: 5px;
+}
+.special {
+  color: white;
+  background-color: #ff7777;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  padding: 5px;
+}
+.signup {
+  color: #80b7e6;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #80b7e6;
+}
+.text {
+  color: #80b7e6;
+}

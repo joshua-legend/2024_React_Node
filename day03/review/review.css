@@ -1,0 +1,55 @@
+.pillRedButton {
+  background-color: #e5484d;
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+.p-1 {
+  padding: 7px 10px;
+}
+.p-2 {
+  padding: 10px 30px;
+}
+.p-3 {
+  padding: 12px 100px;
+}
+
+.apple {
+  background-color: black;
+  color: white;
+  border: none;
+}
+.google {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.pillButton {
+  border-radius: 15px;
+  padding: 12px 100px;
+  font-weight: 700;
+}
+
+.kakao {
+  background-color: #fee006;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 100px;
+  font-weight: 700;
+}
+
+.chip {
+  background-color: white;
+  color: black;
+  border: 1px solid #e6e6e6;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.mr {
+  margin-right: 10px;
+}
