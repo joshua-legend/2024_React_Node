@@ -1,0 +1,35 @@
+.villa {
+  background-image: url("villa.jpg");
+}
+
+.hotel {
+  background-image: url("hotel.jpg");
+}
+
+.pool {
+  background-image: url("pool.jpg");
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  border-radius: 6px;
+
+  background-size: cover;
+  padding: 15px;
+  color: white;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.category {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.title {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+}
