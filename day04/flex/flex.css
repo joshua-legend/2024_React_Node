@@ -1,0 +1,35 @@
+.container {
+  width: 1500px;
+  height: 1500px;
+  border: 1px solid red;
+  /* 자식들을 가로 또는 세로로 배치화 시킴 */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  /* 주축(메인축)기준으로 정렬해줌 */
+  justify-content: center;
+
+  /* 교차축(서브축)기준으로 정렬해줌 */
+  align-items: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}

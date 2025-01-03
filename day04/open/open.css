@@ -1,0 +1,37 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.card {
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  background-size: cover;
+  padding: 100px 15px 30px 30px;
+}
+
+.studio {
+  background-image: url("open.jpg");
+}
+
+.pill {
+  border: 1px solid orange;
+  border-radius: 30px;
+  padding: 10px;
+  color: orange;
+  background-color: transparent;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+  line-height: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.more {
+  color: grey;
+}
