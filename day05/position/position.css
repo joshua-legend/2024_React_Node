@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 300px;
+  height: 300px;
+}
+.red {
+  background-color: #e74c3c;
+}
+.yellow {
+  background-color: #f1c40f;
+}
+.blue {
+  background-color: #2980b9;
+}
+.green {
+  background-color: #27ae60;
+}
+.miniBox {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}

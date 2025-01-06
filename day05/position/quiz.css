@@ -1,0 +1,24 @@
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 8px;
+
+  width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 0 15px 20px 15px;
+  margin: 30px;
+}
+
+.pro {
+  background-color: #fee700;
+  padding: 8px 10px;
+  border-radius: 14px;
+  position: relative;
+  top: -10px;
+}
+
+.icon > i {
+  font-size: 30px;
+}
