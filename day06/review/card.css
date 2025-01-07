@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  width: fit-content;
+  padding: 100px 40px;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+.card > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 9999px;
+  margin-bottom: 20px;
+}
+
+.name {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.motto {
+  color: white;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.sns {
+  width: 250px;
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 20px;
+}

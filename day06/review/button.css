@@ -1,0 +1,29 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.pill {
+  border: 1px solid #efefef;
+  border-radius: 20px;
+  padding: 8px 14px;
+  transition: all 0.5s;
+}
+
+.pill:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.green:hover {
+  background-color: #56ba9f;
+}
+
+.blue:hover {
+  background-color: #5eb1ef;
+}
+
+.purple:hover {
+  background-color: #aa99ec;
+}
