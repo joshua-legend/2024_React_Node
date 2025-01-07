@@ -16,7 +16,14 @@
   font-weight: 600;
   font-size: 18px;
   background-color: transparent;
+  transition: all 0.3s;
 }
+
+.category:hover {
+  color: white;
+  background-color: black;
+}
+
 .card__layout {
   display: flex;
   gap: 50px;
@@ -55,10 +62,10 @@
   top: 0px;
 }
 
-.blurBox:hover > .blur {
+.card:hover .blur {
   opacity: 0.3;
 }
-.blurBox:hover > .title {
+.card:hover .title {
   opacity: 1;
 }
 .blurBox > .blur {
