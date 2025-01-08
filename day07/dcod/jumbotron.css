@@ -1,0 +1,40 @@
+.jumbotron {
+  height: 80vh;
+  padding-top: 300px;
+  background-image: url("city.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+
+.jumbotron > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.jumbotron > .contents > h1 {
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+.jumbotron > .contents > p {
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.jumbotron > .contents > .button {
+  width: fit-content;
+  padding: 5px 180px;
+  border: 1px solid white;
+}
+
+.blur {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.15;
+}

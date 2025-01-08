@@ -1,0 +1,19 @@
+.box {
+  width: 100vw;
+  height: 200px;
+  /* background-color: pink; */
+}
+.minibox {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  background-color: skyblue;
+  margin: 0 auto;
+}
+.minibox1 {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  background-color: green;
+  margin: 0 auto;
+}

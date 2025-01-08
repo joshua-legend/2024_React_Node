@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Ownglyph_StudyHard-Rg";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_StudyHard-Rg.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "Ownglyph_StudyHard-Rg";
+}
+header {
+}
+nav {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > strong {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+nav > ul {
+  display: flex;
+}
+
+nav > ul > li {
+  padding: 20px 40px;
+  transition: all 0.5s;
+}
+nav > ul > li:hover {
+  color: white;
+  background-color: #555555;
+}
