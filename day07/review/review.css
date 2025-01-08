@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "kia"; /* 폰트 이름 (마음대로 지정 가능) */
+  src: url("../review/KIA_Medium.ttf") format("truetype");
+}
+
+* {
+  font-family: "kia";
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  padding: 50px;
+  border: 1px solid #d3d3d3;
+
+  width: 500px;
+  border-radius: 8px;
+}
+
+.car__type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.car__type > .badge {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #efefef;
+}
+
+.car__title {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.car__image {
+  width: 100%;
+  margin-bottom: 80px;
+}
+.car__image > img {
+  width: 100%;
+  object-fit: contain;
+}
+.outter__option {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.inner__option {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.car__price {
+  border-top: 1px solid #efefef;
+  padding-top: 20px;
+  text-align: end;
+  margin-bottom: 50px;
+}
+
+.car__price > .price {
+  font-size: 24px;
+}
+
+.car__price > .currency {
+  font-size: 14px;
+}
+
+.btn__layout {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn__layout > button {
+  padding: 12px 18px;
+  font-weight: 600;
+}
+
+.apply {
+  background-color: white;
+  color: black;
+  border: 1px solid #efefef;
+}
+
+.estimate {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
