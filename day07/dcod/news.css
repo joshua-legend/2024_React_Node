@@ -1,0 +1,41 @@
+.news {
+  padding: 200px 0;
+}
+
+.news > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.news > .contents > h3 {
+  font-size: 40px;
+}
+
+.contents > .card__layout {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card__layout > article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card__layout > article > figure {
+  width: 100%;
+  height: 150px;
+}
+
+.card__layout > article > figure > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
