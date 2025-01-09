@@ -1,0 +1,19 @@
+.container {
+  width: 500px;
+  overflow: scroll;
+}
+
+.box {
+  width: 1000px;
+  padding: 10px 0px;
+  background-color: black;
+  display: flex;
+  gap: 20px;
+}
+
+.box > button {
+  padding: 4px 8px;
+  border: 1px solid #eeeeee;
+  border-radius: 20px;
+  color: grey;
+}
