@@ -1,0 +1,92 @@
+:root {
+  /*================================================
+      1) 색상 (Color Palette)
+      - Primary/Secondary/Accent 계열, Grayscale 등
+    =================================================*/
+
+  /* 기본(메인) 컬러 */
+  --color-primary: #3498db; /* 기본 Blue */
+  --color-primary-light: #5dade2; /* 더 밝은 Blue */
+  --color-primary-dark: #2980b9; /* 더 어두운 Blue */
+
+  /* 서브(보조) 컬러 */
+  --color-secondary: #2ecc71; /* 기본 Green */
+  --color-secondary-light: #58d68d; /* 밝은 Green */
+  --color-secondary-dark: #27ae60; /* 어두운 Green */
+
+  /* 액센트(포인트) 컬러 */
+  --color-accent: #e74c3c; /* Red */
+  --color-accent-light: #f1948a; /* 밝은 Red */
+  --color-accent-dark: #c0392b; /* 어두운 Red */
+
+  /* 텍스트 & 배경 컬러 */
+  --color-text: #333;
+  --color-text-light: #555;
+  --color-text-invert: #fff; /* 주로 어두운 배경 위 텍스트 */
+  --color-bg: #fff;
+  --color-bg-alt: #f9f9f9; /* 살짝 다른 배경(대체 배경) */
+
+  /* 회색 계열 (Grayscale) */
+  --gray-0: #ffffff;
+  --gray-1: #f9f9f9;
+  --gray-2: #eeeeee;
+  --gray-3: #cccccc;
+  --gray-4: #999999;
+  --gray-5: #666666;
+  --gray-6: #333333;
+  --gray-7: #111111;
+
+  /*================================================
+      2) 폰트 (Font)
+      - 폰트 패밀리, 폰트 사이즈, 라인 높이 등
+    =================================================*/
+  --font-family-sans: "Helvetica Neue", "Arial", sans-serif;
+  --font-family-serif: "Georgia", "Times", serif;
+  --font-family-mono: "Courier New", monospace;
+
+  /* 기본 폰트 사이즈(16px 기준으로 예시) */
+  --font-base: 16px;
+
+  /* 다양한 폰트 크기 (상황별 사용) */
+  --font-size-sm: 0.875rem; /* 약 14px */
+  --font-size-md: 1rem; /* 16px (기본) */
+  --font-size-lg: 1.25rem; /* 20px */
+  --font-size-xl: 1.5rem; /* 24px */
+  --font-size-xxl: 2rem; /* 32px */
+
+  /* 라인 높이(Line-height) */
+  --line-height-sm: 1.2;
+  --line-height-md: 1.5;
+  --line-height-lg: 1.8;
+
+  /*================================================
+      3) 간격 (Spacing)
+      - 마진/패딩으로 활용할 값들
+    =================================================*/
+  --spacing-xxs: 2px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
+
+  /*================================================
+      4) 기타 (기본적인 UI 요소들)
+      - 보더, 쉐도우, 트랜지션 등
+    =================================================*/
+  /* 테두리 둥근 정도 */
+  --border-radius-sm: 2px;
+  --border-radius-md: 4px;
+  --border-radius-lg: 8px;
+
+  /* 박스 쉐도우 */
+  --box-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1);
+  --box-shadow-md: 0 2px 4px rgba(0, 0, 0, 0.15);
+  --box-shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  /* 트랜지션 지속 시간 */
+  --transition-fast: 0.2s;
+  --transition-base: 0.3s;
+  --transition-slow: 0.5s;
+}

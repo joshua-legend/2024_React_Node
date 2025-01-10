@@ -17,3 +17,10 @@
   border-radius: 20px;
   color: grey;
 }
+
+.test {
+  transition: all 1s;
+}
+.test:hover {
+  text-shadow: 5px 5px #558abb;
+}
